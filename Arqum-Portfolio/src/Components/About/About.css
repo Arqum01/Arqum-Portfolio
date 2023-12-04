@@ -1,0 +1,131 @@
+.aboutContainer {
+	background-image: url("../../assets/Background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+}
+.About {
+	display: flex;
+	width: 50%;
+	align-items: center;
+	gap: 6%;
+	color: white;
+	height: 100vh;
+	padding-bottom: 10px;
+}
+@media only screen and (max-width: 1022px) {
+	.About {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.aboutImg {
+	width: 380px;
+	height: 380px;
+	border-radius: 10px;
+}
+@media only screen and (max-width: 1022px) {
+	.aboutImg {
+		width: 340px;
+		height: 350px;
+	}
+}
+@media only screen and (max-height: 780px) {
+	.aboutImg {
+		margin-top: 3rem;
+	}
+}
+@media only screen and (max-height: 620px) {
+	.aboutImg {
+		margin-top: 1rem;
+	}
+}
+@media only screen and (max-height: 676px) {
+	.aboutImg {
+		width: 240px;
+		height: 240px;
+	}
+}
+.aboutData {
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
+@media only screen and (max-width: 1022px) {
+	.aboutData {
+		width: 340px;
+		gap: 10px;
+	}
+}
+@media only screen and (max-width: 368px) {
+	.aboutData {
+		padding-left: 3px;
+	}
+}
+.dataHead {
+	font-size: 45px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+@media only screen and (max-width: 1438px) {
+	.dataHead {
+		font-size: 38px;
+	}
+}
+@media only screen and (max-width: 1306px) {
+	.dataHead {
+		font-size: 25px;
+	}
+}
+.dataHead span {
+	color: aqua;
+}
+.underline {
+	border-bottom: 2px dotted aqua;
+	width: 340px;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+}
+@media only screen and (max-width: 359px) {
+	.underline {
+		width: 300px;
+	}
+}
+.dataSubHead {
+	font-size: 20px;
+	font-weight: 500;
+}
+@media only screen and (max-width: 1306px) {
+	.dataSubHead {
+		font-size: 15px;
+	}
+}
+.dataSubHead span {
+	color: aqua;
+}
+.aboutMe {
+	font-size: 15px;
+	font-weight: 500;
+}
+@media only screen and (max-width: 368px) {
+	.aboutMe {
+		font-size: 12px;
+	}
+}
+.learnMore {
+	width: 120px;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: black;
+	border: 1px solid aqua;
+	color: aqua;
+	font-size: 14px;
+}
+.learnMore a {
+	text-decoration: none;
+	color: aqua;
+}

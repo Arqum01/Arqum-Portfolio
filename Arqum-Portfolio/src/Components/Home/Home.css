@@ -1,0 +1,61 @@
+.Home {
+	background-image: url("../../assets/Background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+}
+.homeHead {
+	color: white;
+	font-size: 55px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+@media only screen and (max-width: 504px) {
+	.homeHead {
+		font-size: 45px;
+	}
+}
+@media only screen and (max-width: 396px) {
+	.homeHead {
+		font-size: 35px;
+	}
+}
+.homeHead span {
+	color: aqua;
+}
+.homeBody {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 30px;
+	font-weight: 500;
+	color: white;
+}
+@media only screen and (max-width: 420px) {
+	.homeBody {
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 346px) {
+	.homeBody {
+		font-size: 20px;
+	}
+}
+.homeBody span {
+	font-weight: bold;
+}
+.getTouch {
+	padding: 1% 1.5%;
+	border-radius: 20px;
+	border: 1px solid aqua;
+	background-color: black;
+	font-size: 24px;
+}
+.linkBtn {
+	text-decoration: none;
+	color: aqua;
+}
